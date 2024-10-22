@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri_Info</title>
+
+          <!--External CSS link-->
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="stylesheet" href="css/Contact.css">
+
+              <!--FONT AWESOME-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+ <!-- favicon-->
+ <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+ 
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img style="margin-left: 1px;" height="50px" width="110px" src="img/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Farming Guides.html">Farming Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Crop Details.html">Crop Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pest Control.html">Pest Control</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--navbar end-->
+
+<!--Contact Section-->
+<div class="contact">
+  <div class="form-section02">
+      <h2>Stay with Us</h2>
+      <form class="form02"  action="#" method="POST" enctype="multipart/form-data">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <label for="attachment">Attachment (optional)</label>
+          <input type="file" id="attachment" name="attachment" accept="image/*,application/pdf">
+
+          <small>You can upload images or documents related to your inquiry (max file size: 5MB).</small>
+
+          <button type="submit">Submit Inquiry</button>
+      </form>
+  </div>
+
+  <div class="contact-details">
+      <div class="direct-contact">
+          <h3>Direct Contact</h3>
+          <p>Agricultural Advisory Service</p>
+          <p>Get expert advice from our team of agricultural specialists.</p>
+          <p>Phone: <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+          <p>Email: <a href="mailto:advisory@agrinfohub.com">advisory@agrinfohub.com</a></p>
+          <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
+      </div>
+
+      <div class="extension-services">
+          <h3>Extension Services</h3>
+          <p>Local Extension Office</p>
+          <p>Connect with your local agricultural extension service for region-specific advice.</p>
+          <button class="button02">Find Your Local Office</button>
+      </div>
+  </div>
+</div>
+
+<!--Footer-->
+      <footer>
+        <p>&copy; 2024 Agri Info.Naimul Hassan All rights reserved</p>
+    </footer>
+    
+  
+<!--Bootstrap JS CDN-->
+
+<script src="js/bootstrap.min.js"></script>
+
+<!--script-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+background-color: none;
+font-family: Arial, sans-serif;
+
+}
+
+/*Navbar*/
+.navbar{
+    background-color:#ffffff;
+    margin-bottom: 0%;
+    border-top: 2px solid rgba(142, 142, 142, .5);
+    }
+    
+    .nav-item .nav-link{
+    color: rgb(4, 96, 47);
+    }
+    
+    .nav-item .nav-link:hover{
+    background-color: rgba(195, 232, 167, 0.5);
+    display: inline-block;
+    width: auto;
+    }
+
+/*Featured Guides*/
+h2 {
+    color: #4d6203;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-guides-section {
+    background-color: #d1e7eb;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.featured-guides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide {
+    width: 30%;
+    background-color: #c3f4b6;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(57, 111, 61, 0.3);
+}
+
+.guide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.guide h3 {
+    color: #2c8a4e;
+    margin: 10px 0;
+}
+
+.guide p {
+    font-size: 14px;
+    color: #383030;
+}
+
+button {
+    background-color: #f1643d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.step-by-step-guide-section {
+    background-color: #f9fafa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.step-guide ol {
+    padding-left: 20px;
+}
+
+.step-guide li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.step-guide strong {
+    font-size: 18px;
+    color: #24df69;
+}
+@media (max-width: 768px) {
+    .guide-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*Footer*/
+footer {
+    background-color: #ced33c;
+    color: rgb(16, 2, 2);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }

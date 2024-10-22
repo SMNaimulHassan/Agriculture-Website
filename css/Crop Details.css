@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+background-color: none;
+font-family: Arial, sans-serif;
+
+}
+
+
+/*Navbar*/
+.navbar{
+    background-color:#ffffff;
+    margin-bottom: 0%;
+    border-top: 2px solid rgba(142, 142, 142, .5);
+    }
+    
+    .nav-item .nav-link{
+    color: rgb(4, 96, 47);
+    }
+    
+    .nav-item .nav-link:hover{
+    background-color: rgba(195, 232, 167, 0.5);
+    display: inline-block;
+    width: auto;
+    }
+/*End Nav*/
+
+
+
+h2 {
+    color: #fcec06;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #60e390;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.crop-details-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #cffade;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.major-crop-categories, .specific-crops-section {
+    margin-bottom: 40px;
+}
+
+.crop-category-grid, .specific-crop-grid {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+ 
+}
+
+.crop-category, .specific-crop {
+    width: 22%;
+    background-color: #cbf9a4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.crop-category img, .specific-crop img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.crop-category h4, .specific-crop h4 {
+    color: #0c0e06;
+    margin-bottom: 10px;
+}
+
+.crop-category p, .specific-crop p {
+    font-size: 14px;
+    color: #493e3e;
+}
+
+button {
+    background-color: #f95e47;
+    color: rgb(10, 1, 1);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .crop-category, .specific-crop {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .crop-category, .specific-crop {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*Footer*/
+footer {
+    background-color: #ced33c;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
